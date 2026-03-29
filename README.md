@@ -6,8 +6,6 @@ Il contient plusieurs implémentations parallèles avec CUDA, ainsi qu'OpenMP et
 
 Les programmes sont compilés avec `gcc` et `nvcc`.
 
---
-
 ## Compilation
 
 Depuis la racine du projet :
@@ -21,8 +19,6 @@ Pour nettoyer :
 ```bash
 make clean
 ```
-
----
 
 ## Choix du nombre de threads pour la partie OpenMP
 
@@ -38,8 +34,6 @@ Exemple d’exécution :
 export OMP_NUM_THREADS=16
 ./mandel_openmp_dynamic.exe
 ```
-
----
 
 ## Rapports d'analyse des performances
 
